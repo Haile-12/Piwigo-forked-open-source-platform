@@ -2,41 +2,39 @@
 
 Manage your photo library. Piwigo is open source photo gallery software for the web. Designed for organisations, teams and individuals.
 
-![screenshot](https://piwigo.org/screenshots/github-screenshot-2.10.jpg)
+# 📸 Piwigo Forked Open-Source Platform
 
-The [piwigo.org](https://piwigo.org) website introduces you to Piwigo. You'll find a demo, forums, wiki and news.
- 
-## Requirements
+This repository is a **fork of [Piwigo](https://piwigo.org/)** — an open-source photo gallery platform — customized and enhanced with new features and personal modifications by **Haile Tassew**.
 
- * A webserver (Apache or nginx recommended)
- * PHP 7.4+. Piwigo can run with PHP 7.0+ but these end-of-life versions are no longer maintained and may expose your site to security vulnerabilities.
- * MySQL 5 or greater or MariaDB equivalent
- * ImageMagick (recommended) or PHP GD
+---
 
-## Quick start install
+## 🚀 About Piwigo
+Piwigo is a powerful open-source photo gallery software for the web, designed for organizations, teams, and individuals to manage photo collections.  
+It provides features like albums, tags, permissions, plugins, themes, and user management.
 
-### NetInstall
+---
 
- * Download the [NetInstall script](https://piwigo.org/download/dlcounter.php?code=netinstall)
- * Transfer the script to your web space with any FTP client
- * Open the script in you web browser (for example http://example.com/piwigo-netinstall.php) and follow the steps
+## 🆕 Key Contribution: Music Manager Plugin 🎶
 
-[More information](https://piwigo.org/guides/install/netinstall)
+I developed and integrated a **new plugin** called **Music Manager**, which brings cultural and audio experiences to the Piwigo gallery.
 
-### Manual
+### 🌟 Features of Music Manager
+**Admin Panel (Management Side):**
+- ➕ Add new music files to specific cultural categories (e.g. **Raya**, **Awrs**, **Hura Tembien**, **Collections**)  
+- 📝 Modify existing tracks or update metadata (title, artist, category)  
+- 🗑️ Safely delete or replace outdated music entries  
+- 🎧 Provide a regional audio experience alongside photo content  
 
- * Download the [latest stable version](https://piwigo.org/download/dlcounter.php?code=latest) and unzip it
- * Transfer everything to your web space with any FTP client
- * Open your website (for example http://example.com/piwigo) and follow the steps
+**User Mode (Visitor Side):**
+- 📂 Browse music by **cultural category**  
+- ▶️ Listen to tracks directly within the gallery  
+- 🎶 Enjoy immersive multimedia experience along with the photos  
 
-[More information](https://piwigo.org/guides/install/manual)
+**Bug Fixes:**
+- 🛠️ Fixed multiple issues that previously caused the plugin not to run  
+- ✅ Ensured compatibility with Piwigo’s admin and user interfaces  
 
-If you do not have your own server, consider the [piwigo.com](https://piwigo.com/) hosting solution.
+---
 
-## Contributing
-
-Piwigo is widely driven by its community; if you want to improve the code, fork this repo and submit your changes to the `master` branch. See our [Contribution guide](https://github.com/Piwigo/Piwigo/blob/master/docs/CONTRIBUTING.md).
-
-## License
-
-Piwigo is released under the GPL v2 license. See our [Copying details](https://github.com/Piwigo/Piwigo/blob/master/COPYING.txt).
+## 📂 Project Structure
+eased under the GPL v2 license. See our [Copying details](https://github.com/Piwigo/Piwigo/blob/master/COPYING.txt).
