@@ -37,4 +37,21 @@ I developed and integrated a **new plugin** called **Music Manager**, which brin
 ---
 
 ## 📂 Project Structure
+htdocs/
+├── photos/ # Piwigo project root
+├── plugins/
+│ └── music_manager/ # 🎶 New Music Manager plugin
+├── themes/ # UI themes
+├── admin/ # Admin panel files
+└── ... # Other Piwigo core files
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Haile-12/Piwigo-forked-open-source-platform.git
+   cd Piwigo-forked-open-source-platform
+
 eased under the GPL v2 license. See our [Copying details](https://github.com/Piwigo/Piwigo/blob/master/COPYING.txt).
